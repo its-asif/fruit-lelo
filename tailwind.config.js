@@ -1,11 +1,8 @@
- // tailwind.config.js
- module.exports = {
-    theme: {
-      extend: {
-        backgroundImage: theme => ({
-         'hero-pattern': "url('/img/hero-pattern.svg')",
-         'footer-texture': "url('/img/footer-texture.png')",
-        })
-      }
-    }
-  }
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["./src/**/*.{html,js}"],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
