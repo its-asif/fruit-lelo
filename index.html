@@ -36,7 +36,7 @@
   </script>
 </head>
 <body>
-  <!-- Header - navbar & slider -->
+  <!-- Header -> navbar & slider -->
     <header class="container mx-auto">
         <!-- NavBar -->
         <div class="navbar bg-red-500 rounded-full px-8 text-white my-7 flex-row-reverse md:flex-row">
@@ -157,19 +157,19 @@
 
     </header>
 
-    <!-- Main Section - deal of the day -->
+    <!-- Main Section -->
     <main class="container mx-auto">
 
       <!-- Deal of the day Section -->
       <div>
         <!-- Upper Section -->
-        <div class="flex lg:gap-x-48 mb-10">
+        <div class="flex flex-col lg:flex-row justify-center text-center mt-20 lg:gap-x-48 mb-10">
           <div>
             <h1 class="text-4xl font-extrabold">Deal of the day</h1>
             <p class="text-md my-5 font-light">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
           </div>
           <!-- timer -->
-          <div class="grid grid-flow-col gap-1 text-center auto-cols-max items-center">
+          <div class="grid grid-flow-col gap-1 text-center auto-cols-max items-center mx-auto">
             <div class="flex flex-col">
               <span class="countdown font-mono text-5xl">
                 <span style="--value:15;"></span>
@@ -200,7 +200,7 @@
           </div>
         </div>
         <!-- card section -->
-        <div class="flex flex-col md:flex-row gap-x-4 justify-evenly">
+        <div class="flex flex-col md:flex-row gap-y-5 gap-x-4 justify-evenly items-center">
           <!-- 1st card -->
           <div class="card w-96 bg-base-100 shadow-xl py-5">
             <figure><img src="/images/fruit6.png" alt="Shoes" /></figure>
@@ -532,5 +532,30 @@
 
 
     </main>
-    <footer class="container mx-auto"></footer>
+    <footer class="footer footer-center p-10 py-20 bg-black text-white  ">
+      <!-- title -->
+      <div class="navbar-center flex">
+        <img src="images/logo.png" class="w-8">
+        <h1 class="normal-case text-3xl font-bold">Fruit Burst</a>
+    </div>
+      <!-- options -->
+      <div class="grid grid-flow-col gap-x-4">
+        <a class="link link-hover">Home</a> 
+        <a class="link link-hover">About us</a> 
+        <a class="link link-hover">Shop</a> 
+        <a class="link link-hover">All Fruits</a> 
+        <a class="link link-hover">Support</a>
+        <a class="link link-hover">My Account</a>
+      </div> 
+      <!-- logos -->
+      <div class="grid grid-flow-col gap-x-7">
+        <i class="fa-brands fa-twitter text-2xl" style="color: #ffffff;"></i>
+        <i class="fa-brands fa-facebook text-2xl" style="color: #ffffff;"></i>
+        <i class="fa-brands fa-youtube text-2xl" style="color: #ffffff;"></i>
+        <i class="fa-brands fa-linkedin text-2xl" style="color: #ffffff;"></i>
+        <i class="fa-brands fa-instagram text-2xl" style="color: #ffffff;"></i>
+        <i class="fa-brands fa-apple text-2xl" style="color: #ffffff;"></i>
+      </div>
+       
+    </footer>
 </body>
